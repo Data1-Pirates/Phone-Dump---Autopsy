@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2023/03/30 17:06:11 (IST)</CreatedDate>
+  <ModifiedDate>2023/03/30 17:06:15 (IST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.19.3</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.19.3</SavedByAutopsyVersion>
+  <Case>
+    <Name>phone_dump_20230330_170611</Name>
+    <DisplayName>Phone Dump</DisplayName>
+    <Number>001</Number>
+    <Examiner>Xyz</Examiner>
+    <ExaminerPhone/>
+    <ExaminerEmail/>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>

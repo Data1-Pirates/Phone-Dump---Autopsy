@@ -1,0 +1,2 @@
+Prefetch Directory is  C:\Users\bhart\AppData\Local\Temp\Autopsy\phone_dump_20230330_170611\Temp\RecentActivity\1-Autopsy_PF_DB.db3_0
+DB file is  D:\Programming\3rd year\6th Sem\Network Forensics Lab\Phone Dump\Phone Dump\ModuleOutput\prefetch\1-Autopsy_PF_DB.db3

@@ -1,0 +1,518 @@
+2023-03-30 17:06:15.853 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2023-03-30 17:06:15.912 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2023-03-30 17:06:15.936 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2023-03-30 17:06:15.936 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2023-03-30 17:06:15.939 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2023-03-30 17:06:18.624 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2023-03-30 17:06:18.948 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2023-03-30 17:06:19.102 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2023-03-30 17:06:19.256 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Phone Dump (phone_dump_20230330_170611) in D:\Programming\3rd year\6th Sem\Network Forensics Lab\Phone Dump\Phone Dump as the current case
+2023-03-30 17:06:20.261 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2023-03-30 17:06:21.915 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-30 17:06:23.365 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-30 17:06:23.99 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2023-03-30 17:06:25.248 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.19.3
+2023-03-30 17:06:25.285 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.19.3
+2023-03-30 17:06:25.319 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.19.3
+2023-03-30 17:06:25.338 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.19.3
+2023-03-30 17:06:25.339 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.19.3
+2023-03-30 17:06:25.358 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.19.3
+2023-03-30 17:06:25.426 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.19.3
+2023-03-30 17:06:25.443 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.19.3
+2023-03-30 17:06:25.443 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.19.3
+2023-03-30 17:06:25.479 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.19.3
+2023-03-30 17:06:25.479 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.19.3
+2023-03-30 17:06:25.496 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2023-03-30 17:06:25.512 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.19.3
+2023-03-30 17:06:25.528 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.19.3
+2023-03-30 17:06:25.547 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.19.3
+2023-03-30 17:06:25.566 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.19.3
+2023-03-30 17:06:25.579 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.19.3
+2023-03-30 17:06:25.58 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.19.3
+2023-03-30 17:06:25.582 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.19.3
+2023-03-30 17:06:25.613 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2023-03-30 17:06:25.614 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.19.3
+2023-03-30 17:07:04.786 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of D:\
+2023-03-30 17:07:04.788 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0
+2023-03-30 17:07:04.794 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2023-03-30 17:07:05.033 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2023-03-30 17:07:06.881 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2023-03-30 17:07:06.991 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2023-03-30 17:07:07.134 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting first stage analysis in streaming mode (data source = android1.dd, objId = 1, pipeline id = 0, ingest job id = 1)
+2023-03-30 17:07:08.936 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Adding job 0
+2023-03-30 17:07:08.937 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Resetting periodic search time out to default value
+2023-03-30 17:07:11.782 org.sleuthkit.autopsy.casemodule.AddImageTask runAddImageProcess
+WARNING: Non-critical error occurred adding image D:\Programming\3rd year\6th Sem\Network Forensics Lab\Phone Dump\android1.dd
+org.sleuthkit.datamodel.TskDataException: Errors occurred while ingesting image 
+1. Cannot determine file system type (Sector offset: 1024, Partition Type: proinfo) 
+2. Cannot determine file system type (Sector offset: 7168, Partition Type: nvram) 
+3. Possible encryption detected (High entropy (7.51)) (Sector offset: 58368, Partition Type: lk) 
+4. Possible encryption detected (High entropy (7.76)) (Sector offset: 59392, Partition Type: para) 
+5. Possible encryption detected (High entropy (7.97)) (Sector offset: 60416, Partition Type: boot) 
+6. Possible encryption detected (High entropy (7.97)) (Sector offset: 93184, Partition Type: recovery) 
+7. Cannot determine file system type (Sector offset: 125952, Partition Type: logo) 
+8. Cannot determine file system type (Sector offset: 142336, Partition Type: expdb) 
+9. Cannot determine file system type (Sector offset: 162816, Partition Type: seccfg) 
+10. Cannot determine file system type (Sector offset: 163840, Partition Type: oemkeystore) 
+11. Cannot determine file system type (Sector offset: 167936, Partition Type: secro) 
+12. Cannot determine file system type (Sector offset: 180224, Partition Type: keystore) 
+13. Cannot determine file system type (Sector offset: 196608, Partition Type: tee1) 
+14. Cannot determine file system type (Sector offset: 217088, Partition Type: tee2) 
+15. Cannot determine file system type (Sector offset: 335872, Partition Type: efuse) 
+16. Cannot determine file system type (Sector offset: 336896, Partition Type: frp) 
+17. Cannot determine file system type (Sector offset: 404480, Partition Type: metadata) 
+18. Error extracting file from image (ext2fs_dir_open_meta: Error reading directory contents: 2
+) (Error walking directory in file system at offset 780140544) 
+19. Cannot determine file system type (Sector offset: 6766592, Partition Type: cache) 
+20. Cannot determine file system type (Sector offset: 7585792, Partition Type: userdata) 
+21. Cannot determine file system type (Sector offset: 30501888, Partition Type: flashinfo) 
+22. Error reading image file (tsk_fs_block_get: Address missing in partial image: 229375)) (TskAutoDbJava::addFsInfoUnalloc: error walking fs unalloc blocks, fs id: 1103) 
+
+	org.sleuthkit.datamodel.SleuthkitJNI.runAddImgNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.access$2200(SleuthkitJNI.java:52)
+	org.sleuthkit.datamodel.SleuthkitJNI$CaseDbHandle$AddImageProcess.run(SleuthkitJNI.java:584)
+	org.sleuthkit.autopsy.casemodule.AddImageTask.runAddImageProcess(AddImageTask.java:167)
+	org.sleuthkit.autopsy.casemodule.AddImageTask.run(AddImageTask.java:117)
+	java.lang.Thread.run(Thread.java:748)
+2023-03-30 17:07:11.862 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting full first stage analysis in streaming mode (data source = android1.dd, objId = 1, pipeline id = 0, ingest job id = 1)
+2023-03-30 17:07:11.876 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Recent Activity analysis of android1.dd starting
+2023-03-30 17:07:11.914 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2023-03-30 17:07:11.926 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.928 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.929 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.929 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.93 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.931 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.931 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.932 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.932 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.933 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.934 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.935 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.935 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.936 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.936 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.936 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.938 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.938 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.939 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.939 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.939 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.94 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.94 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.941 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.941 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.942 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.942 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.943 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.943 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.944 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.944 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.944 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.945 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.945 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.946 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.946 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.946 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2023-03-30 17:07:11.947 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2023-03-30 17:07:11.947 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2023-03-30 17:07:11.948 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2023-03-30 17:07:11.948 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2023-03-30 17:07:11.948 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2023-03-30 17:07:11.968 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2023-03-30 17:07:11.97 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2023-03-30 17:07:11.97 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2023-03-30 17:07:11.97 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2023-03-30 17:07:11.97 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2023-03-30 17:07:11.98 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2023-03-30 17:07:11.98 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2023-03-30 17:07:11.981 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2023-03-30 17:07:11.986 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2023-03-30 17:07:11.986 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\bhart\AppData\Local\Temp\Autopsy\phone_dump_20230330_170611\Temp\RecentActivity\IE_0\results
+2023-03-30 17:07:11.986 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: D:\Programming\3rd year\6th Sem\Network forensics\Autopsy\autopsy\pasco2
+2023-03-30 17:07:11.987 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2023-03-30 17:07:12.017 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2023-03-30 17:07:12.018 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2023-03-30 17:07:12.029 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2023-03-30 17:07:12.029 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 0 blackboard artifacts.
+2023-03-30 17:07:12.03 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2023-03-30 17:07:15.248 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 0 blackboard artifacts.
+2023-03-30 17:07:15.248 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 0 distinct messaging domain(s) from the blackboard.  Of the 0 artifact(s) with valid hosts, 0 url(s) contained messaging domain suffix.
+2023-03-30 17:07:15.249 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+INFO: Search Engine URL Query Analyzer has completed.
+2023-03-30 17:07:15.25 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner complete
+INFO: Domain categorization completed.
+2023-03-30 17:07:15.252 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Recent Activity analysis of android1.dd finished
+2023-03-30 17:07:15.252 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer analysis of android1.dd starting
+2023-03-30 17:07:17.592 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=263] EL2T_000, see Tika log for details...
+2023-03-30 17:07:17.611 AndroidIngestModule process
+INFO: running 22 analyzers
+2023-03-30 17:07:17.689 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer analysis of android1.dd finished
+2023-03-30 17:07:17.689 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Encryption Detection analysis of android1.dd starting
+2023-03-30 17:07:18.73 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Encryption Detection analysis of android1.dd finished
+2023-03-30 17:07:18.732 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Virtual Machine Extractor analysis of android1.dd starting
+2023-03-30 17:07:18.732 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source android1.dd
+2023-03-30 17:07:18.802 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source android1.dd
+2023-03-30 17:07:18.802 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Virtual Machine Extractor analysis of android1.dd finished
+2023-03-30 17:07:18.802 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer (aLEAPP) analysis of android1.dd starting
+2023-03-30 17:07:22.863 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer (aLEAPP) analysis of android1.dd finished
+2023-03-30 17:07:22.864 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: DJI Drone Analyzer analysis of android1.dd starting
+2023-03-30 17:07:22.869 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: DJI Drone Analyzer analysis of android1.dd finished
+2023-03-30 17:07:22.869 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: iOS Analyzer (iLEAPP) analysis of android1.dd starting
+2023-03-30 17:07:24.635 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=533] EL6M_000, see Tika log for details...
+2023-03-30 17:07:25.192 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=573] MT0K_006, see Tika log for details...
+2023-03-30 17:07:30.373 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: iOS Analyzer (iLEAPP) analysis of android1.dd finished
+2023-03-30 17:08:01.949 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor unpack
+WARNING: Error unpacking file: AbstractContent [	objId 0000001164	name f0014740.gz	parentId -1		checkedHasChildren true	hasChildren false	childrenCount -1uniquePath null]	AbstractFile [		fileType CARVED	ctime 0	crtime 0	mtime 0	atime 0	attrId 0	attrType TSK_FS_ATTR_TYPE_DEFAULT	dirFlag Unallocated	dirType REG	uid 0	gid 0	metaAddr 0	metaSeq 0	metaFlags [Unallocated]	metaType r	modes []	parentPath /$CarvedFiles/	size 9232384	knownState UNKNOWN	md5Hash 1ce9c18413996dec3bc7116618447e5f	sha256Hash 9d79e70e61c3929bf9ea3a08e7c8dd9cde9ea66af53a66eb13968a1096b725d3	localPathSet false	localPath null	localAbsPath null	localFile null]	LayoutFile [	]	
+net.sf.sevenzipjbinding.SevenZipException: Archive file can't be opened with none of the registered codecs
+	net.sf.sevenzipjbinding.SevenZip.nativeOpenArchive(Native Method)
+	net.sf.sevenzipjbinding.SevenZip.callNativeOpenArchive(SevenZip.java:906)
+	net.sf.sevenzipjbinding.SevenZip.openInArchive(SevenZip.java:798)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:659)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:570)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorIngestModule.process(EmbeddedFileExtractorIngestModule.java:199)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-03-30 17:08:12.711 org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule process
+WARNING: Error reading file 'Unalloc_1121_3464495104_3883925504' (id=1153) with the PhotoRec carver.
+org.sleuthkit.datamodel.ReadContentInputStream$ReadContentInputStreamException: Error reading file 'Unalloc_1121_3464495104_3883925504' (id=1153) at offset 0.
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.datamodel.TskCoreException: Read offset too large for image file (tsk_img_read - 3464495104)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-03-30 17:08:12.733 org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule process
+WARNING: Error reading file 'Unalloc_1122_3883925504_15616966656' (id=1154) with the PhotoRec carver.
+org.sleuthkit.datamodel.ReadContentInputStream$ReadContentInputStreamException: Error reading file 'Unalloc_1122_3883925504_15616966656' (id=1154) at offset 0.
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.datamodel.TskCoreException: Read offset too large for image file (tsk_img_read - 3883925504)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-03-30 17:08:12.75 org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule process
+WARNING: Error reading file 'Unalloc_1123_15616966656_15633743872' (id=1155) with the PhotoRec carver.
+org.sleuthkit.datamodel.ReadContentInputStream$ReadContentInputStreamException: Error reading file 'Unalloc_1123_15616966656_15633743872' (id=1155) at offset 0.
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.datamodel.TskCoreException: Read offset too large for image file (tsk_img_read - 15616966656)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:105)
+	org.sleuthkit.datamodel.ReadContentInputStream.read(ReadContentInputStream.java:47)
+	org.sleuthkit.autopsy.datamodel.ContentUtils.writeToFile(ContentUtils.java:269)
+	org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverFileIngestModule.process(PhotoRecCarverFileIngestModule.java:306)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-03-30 17:08:14.649 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished first stage analysis (data source = android1.dd, objId = 1, pipeline id = 0, ingest job id = 1)
+2023-03-30 17:08:14.654 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 1 shutting down
+2023-03-30 17:08:16.331 org.sleuthkit.autopsy.centralrepository.ingestmodule.CentralRepoIngestModule shutDown
+INFO: 510 artifacts in db for case: Phone Dump ds:android1.dd
+2023-03-30 17:08:16.336 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 0 shutting down
+2023-03-30 17:08:16.336 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: Commiting search index before final search for search job 0
+2023-03-30 17:08:20.011 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Starting final search for search job 0
+2023-03-30 17:08:20.011 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Checking for previous search for search job 0 before executing final search
+2023-03-30 17:08:20.013 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Kicking off final search for search job 0
+2023-03-30 17:08:20.013 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Waiting for final search for search job 0
+2023-03-30 17:08:21.001 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher doInBackground
+INFO: Searcher took 0 secs to run (final = true)
+2023-03-30 17:08:21.001 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo searchNotify
+INFO: Notifying after finishing search
+2023-03-30 17:08:21.002 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Final search for search job 0 completed
+2023-03-30 17:08:21.002 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: No more search jobs. Stopping periodic search task
+2023-03-30 17:08:21.006 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 1,059
+2023-03-30 17:08:21.008 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 1,257
+2023-03-30 17:08:21.009 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>11</td></tr><tr><td>Files with general strings extracted</td><td>1020</td></tr><tr><td>Metadata only was indexed</td><td>27</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2023-03-30 17:08:21.011 org.sleuthkit.autopsy.centralrepository.ingestmodule.CentralRepoIngestModule shutDown
+INFO: 510 artifacts in db for case: Phone Dump ds:android1.dd
+2023-03-30 17:08:21.012 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting second stage ingest task pipelines for android1.dd (objID=1, jobID=0) (data source = android1.dd, objId = 1, pipeline id = 0, ingest job id = 1)
+2023-03-30 17:08:21.013 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Data Source Integrity analysis of android1.dd starting
+2023-03-30 17:08:21.051 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 51,600
+2023-03-30 17:08:21.051 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash calculation for android1.dd
+2023-03-30 17:08:43.114 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from android1.dd: ec09648b2033351aecd1608aeb3eebf7
+2023-03-30 17:08:43.115 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from android1.dd: c1eeb74d875ab7f1950ff133ee80c91c8537e7f5
+2023-03-30 17:08:43.115 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from android1.dd: f9a18bd03165f28aefc6ef9dc48d04c0bafa9f02f47fb9a8bce350704f5ff569
+2023-03-30 17:08:43.161 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Data Source Integrity analysis of android1.dd finished
+2023-03-30 17:08:43.162 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished all tasks (data source = android1.dd, objId = 1, pipeline id = 0, ingest job id = 1)
+2023-03-30 17:08:43.187 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed
+2023-03-30 17:13:27.402 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Stopping Solr 8 server
+2023-03-30 17:13:27.403 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Setting Solr 8 directory: D:\Programming\3rd year\6th Sem\Network forensics\Autopsy\autopsy\solr
+2023-03-30 17:13:27.403 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Running Solr 8 command: [D:\Programming\3rd year\6th Sem\Network forensics\Autopsy\autopsy\solr\bin\autopsy-solr.cmd, stop, -k, jjk#09s, -p, 23232] from D:\Programming\3rd year\6th Sem\Network forensics\Autopsy\autopsy\solr
+2023-03-30 17:13:27.447 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Finished running Solr 8 command
+2023-03-30 17:13:27.449 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Waiting for Solr server to stop
+2023-03-30 17:13:29.847 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Finished stopping Solr server
+2023-03-30 17:13:29.847 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2023-03-30 17:13:29.872 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case Phone Dump (phone_dump_20230330_170611) in D:\Programming\3rd year\6th Sem\Network Forensics Lab\Phone Dump\Phone Dump
+2023-03-30 17:13:31.88 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case Phone Dump (phone_dump_20230330_170611)
+2023-03-30 17:13:31.888 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2023-03-30 17:13:31.892 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case Phone Dump (phone_dump_20230330_170611)
